@@ -1,7 +1,7 @@
 chai = require('chai')
 chai.should()
 
-jsExpressionToPhp = require '../src/jsExpressionToPhp'
+jsExpressionToPhp = require '../lib/jsExpressionToPhp'
 
 test = (js, referencePhp, opts = {}) ->
 	jsExpressionToPhp(js, opts).should.eql referencePhp

@@ -2,7 +2,7 @@ chai = require('chai')
 chai.should()
 
 jade = require 'jade'
-jade2php = require '../src/jade2php'
+jade2php = require '../'
 execSync = require 'exec-sync'
 fs = require 'fs'
 

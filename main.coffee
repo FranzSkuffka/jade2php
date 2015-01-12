@@ -1,1 +1,1 @@
-module.exports = require './src/jade2php'
+module.exports = require './lib/jade2php'
